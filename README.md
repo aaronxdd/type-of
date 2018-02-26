@@ -47,12 +47,10 @@ And the library contains `Types` below:
 
 The `Type` has 2 API:
 
- - **check(value)**
+ - **check(variable)**
  - **optional()**: convent the type into optional.
 
 You can see all the usage in the [test cases file](tests/test.js).
-
-If more Types are needed, welcome to `send a pull request`, or put an issue to me.
 
 
 ## 3. Usage examples
@@ -93,7 +91,7 @@ VT.or([
  - `Array` type.
 
 ```js
-var arr = ['hello', 'world', 25, new Date(1992, 1, 20)];
+var arr = ['hello', 'world', 26, new Date(1992, 1, 20)];
 
 var types = VT.arrayOf(
   VT.or([
@@ -112,7 +110,7 @@ types.check(arr); // will get true.
 var obj = {
   name: 'aaronxdd',
   boy: true,
-  birthday: new Date(1992, 8, 1)
+  birthday: new Date(1992, 1, 20)
 };
 
 var types = VT.shape({
