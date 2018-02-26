@@ -1,4 +1,4 @@
-# typeOf
+# type-of
 
 > a handy library for checking the type of javascript variable
 >
@@ -9,14 +9,14 @@
 
 ## 1. Install
 
-> **npm i typeOf**
+> **npm i type-of**
 
 Then import it.
 
 ```js
-import VT from 'typeOf';
+import VT from 'type-of';
 or
-var VT = require('typeOf');
+var VT = require('type-of');
 ```
 
 

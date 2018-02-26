@@ -1,5 +1,5 @@
 {
-  "name": "typeOf",
+  "name": "type-of",
   "version": "0.0.1",
   "description": "Runtime type checking for variable and similar objects.",
   "main": "src/index.js",
