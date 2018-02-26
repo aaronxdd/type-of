@@ -1,0 +1,35 @@
+{
+  "name": "typeOf",
+  "version": "0.0.1",
+  "description": "Runtime type checking for variable and similar objects.",
+  "main": "src/index.js",
+  "scripts": {
+    "coverage": "nyc npm test && nyc report --reporter=lcov",
+    "test": "mocha tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronxdd/typeOf.git"
+  },
+  "keywords": [
+    "variable-type",
+    "var-type",
+    "prop-types",
+    "check-type",
+    "type-checking"
+  ],
+  "author": "aaronxdd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aaronxdd/typeOf/issues"
+  },
+  "homepage": "https://github.com/aaronxdd/typeOf#readme",
+  "devDependencies": {
+    "coveralls": "^2.11.6",
+    "expect": "^1.14.0",
+    "mocha": "^2.4.5",
+    "nyc": "^5.6.0",
+    "prop-types": "^15.5.10",
+    "uglify-js": "^3.0.28"
+  }
+}
