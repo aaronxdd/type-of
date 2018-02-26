@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aaronxdd/typeOf.git"
+    "url": "git+https://github.com/aaronxdd/type-of.git"
   },
   "keywords": [
     "variable-type",
@@ -21,9 +21,9 @@
   "author": "aaronxdd",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aaronxdd/typeOf/issues"
+    "url": "https://github.com/aaronxdd/type-of/issues"
   },
-  "homepage": "https://github.com/aaronxdd/typeOf#readme",
+  "homepage": "https://github.com/aaronxdd/type-of#readme",
   "devDependencies": {
     "coveralls": "^2.11.6",
     "expect": "^1.14.0",
